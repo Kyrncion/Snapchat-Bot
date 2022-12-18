@@ -103,14 +103,14 @@ class snapchat:
         now = time.time()
         elapsed = str(now - self.started_time).split(".")[0]
         sent_snaps = self.sent_snaps * shortcut_users
-        ctypes.windll.kernel32.SetConsoleTitleW(f"[gamesense] Snapchat Bot | Sent Snaps: {sent_snaps} | Elapsed: {elapsed}s | Developed by @TheSkeet on Github")
+        ctypes.windll.kernel32.SetConsoleTitleW(f"[gamesense] Snapchat Bot | Sent Snaps: {sent_snaps} | Elapsed: {elapsed}s | Developed by @WishSense on Github")
 
     def print_console(self, arg, status = "Console"):
         print(f"\n       {Fore.WHITE}[{Fore.RED}{status}{Fore.WHITE}] {arg}")
     
     def main(self):
         os.system("cls")
-        ctypes.windll.kernel32.SetConsoleTitleW("[gamesense] Snapchat Bot | Developed by @TheSkeet on Github")
+        ctypes.windll.kernel32.SetConsoleTitleW("[gamesense] Snapchat Bot | Developed by @WishSense on Github")
         print(Fore.RED + ascii_text)
         self.get_positions()
         shortcut_users = int(input(f"\n       {Fore.WHITE}[{Fore.RED}Console{Fore.WHITE}] How many people are in this shortcut: "))
