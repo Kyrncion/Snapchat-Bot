@@ -7,7 +7,6 @@
 
 Are you feel?
 
-![cmd_OhLjWsRIo5](https://user-images.githubusercontent.com/66425412/194955348-27b07da9-e183-4538-854a-c33707492b6e.png)
 
  
 </div>
